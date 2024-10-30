@@ -5,5 +5,9 @@
 @layer base {
   body {
     @apply bg-zinc-900 text-orange-300;
+
+    a {
+      @apply text-orange-200 transition ease-in-out duration-300 hover:bg-orange-200 hover:text-neutral-900 p-1 rounded hover:no-underline;
+    }
   }
 }
