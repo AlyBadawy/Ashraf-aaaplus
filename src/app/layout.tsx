@@ -9,6 +9,18 @@ export const metadata: Metadata = {
   title: 'AAA PLUS Financial Services',
   description:
     'AAA Plus Financial Services, based in Orlando, FL, offers expert tax preparation, bookkeeping, and financial consulting. Led by Ashraf Abeltawab, CPA, with over two decades of experience, we provide personalized, accurate, and client-focused financial solutions. Discover trustworthy financial guidance for individuals and small businesses in the Orlando area.',
+  keywords: [
+    'Tax Preparation Orlando',
+    'Bookkeeping Services Orlando',
+    'Financial Consultation Orlando',
+    'Orlando CPA',
+    'Nonprofit Accounting Orlando',
+    'خدمات الضرائب أورلاندو',
+    'خدمات المحاسبة أورلاندو',
+    'استشارات مالية أورلاندو',
+    'محاسب معتمد أورلاندو',
+    'محاسبة الجمعيات غير الربحية أورلاندو',
+  ],
 };
 
 export default function RootLayout({

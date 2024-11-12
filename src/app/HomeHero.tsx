@@ -46,6 +46,17 @@ export const HomeHero = () => {
           <p className='font-semibold'>Personalized Tax Solutions</p>
         </div>
       </div>
+      <div className='flex max-md:hidden gap-4 text-sm md:text-base justify-center mt-1 italic'>
+        <div>
+          <p className='font-bold '>We speak Arabic</p>
+        </div>
+        <div>
+          <p>&bull;</p>
+        </div>
+        <div>
+          <p className='font-bold'>نتحدث العربية</p>
+        </div>
+      </div>
     </section>
   );
 };
