@@ -1,6 +1,7 @@
 import { CTA } from '@/components/shared/CTA';
 import HomeHeroImage from '../../public/home-hero.svg';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const HomeHero = () => {
   return (
@@ -20,9 +21,12 @@ export const HomeHero = () => {
           </p>
           <div className='flex flex-col sm:flex-row gap-4 mb-8'>
             <CTA />
-            <button className='bg-transparent border border-zinc-900 text-zinc-900 px-6 py-3 rounded-md font-medium hover:bg-emerald-800 hover:text-white transition duration-300'>
+            <Link
+              href='/services'
+              className='bg-transparent border border-zinc-900 text-zinc-900 px-6 py-3 rounded-md font-medium hover:bg-emerald-800 hover:text-white transition duration-300 text-center'
+            >
               Learn About Our Services
-            </button>
+            </Link>
           </div>
         </div>
         <div className='md:w-1/2 max-md:px-4 mx-auto'>

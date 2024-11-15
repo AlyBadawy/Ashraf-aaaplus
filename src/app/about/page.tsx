@@ -36,7 +36,7 @@ export default function About() {
               alt='Ashraf Abeltawab, CPA'
               width={300}
               height={300}
-              className='rounded-lg object-cover'
+              className='rounded-lg object-cover border-2 border-orange-300/80'
             />
           </div>
 
