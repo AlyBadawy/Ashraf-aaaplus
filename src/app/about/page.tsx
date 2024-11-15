@@ -1,5 +1,6 @@
 import { AAAPlus } from '@/components/shared/AAAPlus';
 import { CTA } from '@/components/shared/CTA';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function About() {
@@ -27,25 +28,42 @@ export default function About() {
         <h4 className='text-2xl py-4 font-bold'>
           Meet Our Founder: Ashraf Abeltawab
         </h4>
-        <p className='pb-4 text-neutral-400'>
-          Ashraf Abeltawab, CPA, brings over two decades of dedicated experience
-          to <AAAPlus />. He passed the rigorous CPA exams through the
-          California Board of Accountancy in 2008, achieving his CPA license in
-          North Dakota in 2016. With a strong foundation in Generally Accepted
-          Accounting Principles (GAAP), financial accounting, and strategic
-          budgeting, planning, and forecasting, Ashraf combines his professional
-          expertise with a passion for helping clients achieve their financial
-          goals.
-        </p>
-        <p className='pb-4 text-neutral-400'>
-          With this robust skill set, Ashraf has a proven record of enhancing
-          and managing the financial operations of organizations both large and
-          small. He applies this knowledge to help individuals and businesses
-          across Orlando make informed decisions, ensuring they meet compliance
-          standards while positioning themselves for growth. At <AAAPlus />,
-          Ashraf is dedicated to building client relationships that prioritize
-          trust, accuracy, and long-term financial health.
-        </p>
+        <div className='flex flex-col md:flex-row-reverse items-center gap-6'>
+          {/* Ashraf's Picture */}
+          <div className='w-full md:w-1/3'>
+            <Image
+              src='/ashraf.jpg' // Replace with the actual image path
+              alt='Ashraf Abeltawab, CPA'
+              width={300}
+              height={300}
+              className='rounded-lg object-cover'
+            />
+          </div>
+
+          {/* Ashraf's Bio */}
+          <div className='flex-1'>
+            <p className='pb-4 text-neutral-400'>
+              Ashraf Abeltawab, CPA, brings over two decades of dedicated
+              experience to <AAAPlus />. He passed the rigorous CPA exams
+              through the California Board of Accountancy in 2008, achieving his
+              CPA license in North Dakota in 2016. With a strong foundation in
+              Generally Accepted Accounting Principles (GAAP), financial
+              accounting, and strategic budgeting, planning, and forecasting,
+              Ashraf combines his professional expertise with a passion for
+              helping clients achieve their financial goals.
+            </p>
+            <p className='pb-4 text-neutral-400'>
+              With this robust skill set, Ashraf has a proven record of
+              enhancing and managing the financial operations of organizations
+              both large and small. He applies this knowledge to help
+              individuals and businesses across Orlando make informed decisions,
+              ensuring they meet compliance standards while positioning
+              themselves for growth. At <AAAPlus />, Ashraf is dedicated to
+              building client relationships that prioritize trust, accuracy, and
+              long-term financial health.
+            </p>
+          </div>
+        </div>
 
         <h4 className='text-2xl py-4 font-bold'>Our Commitment to You</h4>
         <p className='pb-4 text-neutral-400'>

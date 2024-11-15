@@ -1,4 +1,8 @@
 import { AAAPlus } from '@/components/shared/AAAPlus';
+import { FaFileInvoiceDollar } from 'react-icons/fa';
+import { AiOutlineBook } from 'react-icons/ai';
+import { GiReceiveMoney } from 'react-icons/gi';
+import { MdOutlineSupportAgent } from 'react-icons/md';
 
 export default function Services() {
   return (
@@ -7,7 +11,7 @@ export default function Services() {
         <h2 className='text-4xl py-6 font-bold text-orange-300'>
           Our Services:
         </h2>
-        <p>
+        <p className=''>
           With <AAAPlus />, you gain more than just a service provider—you gain
           a dedicated partner in your financial success. Explore our
           comprehensive services, and let us help you achieve your financial
@@ -16,10 +20,11 @@ export default function Services() {
         </p>
 
         <section id='tax-prep' className='flex flex-col gap-2'>
-          <h3 className='text-2xl pt-4 font-bold text-orange-300'>
+          <h3 className='text-2xl pt-4 font-bold text-orange-300 flex items-center gap-2'>
+            <FaFileInvoiceDollar />
             Tax Preparation
           </h3>
-          <p>
+          <p className='ml-8'>
             Maximize compliance and minimize stress with our tailored tax
             services. At <AAAPlus />, we offer comprehensive tax preparation
             solutions for individuals, businesses, and nonprofits, designed to
@@ -28,14 +33,14 @@ export default function Services() {
             credits that align with your unique financial situation, all while
             ensuring you meet every regulatory requirement.
           </p>
-          <p>
+          <p className='ml-8'>
             We understand that tax laws change frequently, which is why our CPAs
             stay current with the latest updates and codes. This allows us to
             provide accurate guidance that minimizes liability and supports
             long-term tax planning. With our expertise, you can rest assured
             that you are taking full advantage of all available tax benefits.
           </p>
-          <p>
+          <p className='ml-8'>
             For many, tax preparation can be a source of stress and uncertainty,
             but our transparent approach helps you feel informed and prepared.
             We break down complex tax concepts into actionable steps, keeping
@@ -46,10 +51,11 @@ export default function Services() {
         </section>
 
         <section id='book-keeping' className='flex flex-col gap-2'>
-          <h3 className='text-2xl pt-4 font-bold text-orange-300'>
+          <h3 className='text-2xl pt-4 font-bold text-orange-300 flex items-center gap-2'>
+            <AiOutlineBook />
             Bookkeeping
           </h3>
-          <p>
+          <p className='ml-8'>
             Keep your finances organized and accessible with our meticulous
             bookkeeping services. We focus on providing accurate, consistent
             record-keeping to help you stay on top of transactions, expenses,
@@ -57,7 +63,7 @@ export default function Services() {
             fingertips, allowing you to make informed decisions for your
             business or personal finances.
           </p>
-          <p>
+          <p className='ml-8'>
             Our bookkeeping services include transaction tracking,
             reconciliation, and financial reporting to give you a clear picture
             of your financial health. We use advanced digital solutions to
@@ -66,7 +72,7 @@ export default function Services() {
             simplify the bookkeeping process, enabling you to focus on other
             priorities with confidence.
           </p>
-          <p>
+          <p className='ml-8'>
             With <AAAPlus /> as your bookkeeping partner, you benefit from our
             commitment to accuracy and transparency. We take the time to
             understand your specific needs and deliver reports that are both
@@ -77,10 +83,11 @@ export default function Services() {
         </section>
 
         <section id='npo' className='flex flex-col gap-2'>
-          <h3 className='text-2xl pt-4 font-bold text-orange-300'>
+          <h3 className='text-2xl pt-4 font-bold text-orange-300 flex items-center gap-2'>
+            <GiReceiveMoney />
             Nonprofit Accounting
           </h3>
-          <p>
+          <p className='ml-8'>
             As specialists in nonprofit accounting, we understand the distinct
             requirements and challenges of managing tax-exempt organizations.
             Our services are designed to handle everything from grant management
@@ -89,7 +96,7 @@ export default function Services() {
             pride in offering accounting solutions that align with the values
             and goals of nonprofits.
           </p>
-          <p>
+          <p className='ml-8'>
             Transparency and accuracy are critical in nonprofit accounting, as
             financial data supports your mission and builds donor trust. Our
             team provides detailed reports and financial insights tailored to
@@ -97,7 +104,7 @@ export default function Services() {
             funds. We keep you informed of any regulatory changes that may
             impact your reporting and compliance requirements.
           </p>
-          <p>
+          <p className='ml-8'>
             With <AAAPlus />, you have a partner dedicated to the success of
             your mission. Our experience in nonprofit finance allows us to guide
             you in optimizing resources and managing funds effectively. You can
@@ -108,10 +115,11 @@ export default function Services() {
         </section>
 
         <section id='consult' className='flex flex-col gap-2'>
-          <h3 className='text-2xl pt-4 font-bold text-orange-300'>
+          <h3 className='text-2xl pt-4 font-bold text-orange-300 flex items-center gap-2'>
+            <MdOutlineSupportAgent />
             Consultation Services
           </h3>
-          <p>
+          <p className='ml-8'>
             Empower your organization with expert financial consultation
             services tailored to your specific needs. Our consultations are
             designed to provide actionable insights and custom solutions for
@@ -120,7 +128,7 @@ export default function Services() {
             finance, we bring a wealth of knowledge to guide your
             decision-making.
           </p>
-          <p>
+          <p className='ml-8'>
             Our approach to consultation goes beyond traditional advice. We take
             the time to assess your current financial landscape, understand your
             goals, and identify opportunities for growth and improvement.
@@ -128,7 +136,7 @@ export default function Services() {
             financial compliance, we offer practical solutions that help you
             achieve lasting success.
           </p>
-          <p>
+          <p className='ml-8'>
             At <AAAPlus />, our goal is to equip you with the tools and insights
             you need to make informed financial decisions. We believe that a
             strong financial foundation leads to sustainable growth, and we are
