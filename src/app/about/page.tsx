@@ -9,12 +9,12 @@ export default function About() {
       <div className='md:w-2/3'>
         <h2 className='text-4xl py-6 font-bold'>About AAA Plus:</h2>
         <p className='pb-4 text-neutral-400'>
-          Based in the heart of Orlando, FL, <AAAPlus /> was founded in 2024 to
-          serve the unique financial needs of individuals, small businesses, and
-          not-for-profit organizations in our local community. With a focus on
-          tax preparation, bookkeeping, and financial consulting, we bring the
-          latest expertise in tax codes, regulations, and financial strategies
-          to ensure our clients have the tools they need to succeed.
+          Based in the heart of Orlando, FL, <AAAPlus /> serves the unique
+          financial needs of individuals, small businesses, and not-for-profit
+          organizations in our local community. With a focus on tax preparation,
+          bookkeeping, and financial consulting, we bring the latest expertise
+          in tax codes, regulations, and financial strategies to ensure our
+          clients have the tools they need to succeed.
         </p>
         <p className='pb-4 text-neutral-400'>
           Our commitment to staying up-to-date with the ever-evolving financial

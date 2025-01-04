@@ -4,6 +4,7 @@ import { NameAndLogo } from '@/components/shared/NameAndLogo';
 import { HeaderNav } from '@/components/nav/HeaderNav';
 import { Footer } from '@/components/footer/Footer';
 import Link from 'next/link';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export const metadata: Metadata = {
   title: 'AAA PLUS Financial Services',
@@ -37,7 +38,6 @@ export default function RootLayout({
               <Link href='/'>
                 <NameAndLogo />
               </Link>
-
               <HeaderNav />
             </header>
             <div className='px-2'>{children}</div>
@@ -45,6 +45,7 @@ export default function RootLayout({
           <Footer />
         </div>
       </body>
+      <GoogleAnalytics gaId='G-FSZLV457E9' />
     </html>
   );
 }
