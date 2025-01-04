@@ -1,7 +1,4 @@
-// import Logo from '../assets/logo.jpg';
-// import LogoFooter from '../assets/logo-footer.jpg';
-
-import Logo from '../../../public/logo.jpg';
+import Logo from '../../../public/logo.png';
 import LogoFooter from '../../../public/logo-footer.jpg';
 import Image from 'next/image';
 
