@@ -10,7 +10,7 @@ export const FooterAddress = () => {
       </p>
       <p className='text-sm'>
         <span className='font-bold'>Address: </span>4700 Millenia Blvd. <br />
-        Orlando, FL 31839 - Suite 5000
+        Orlando, FL 32839 - Suite 500
       </p>
     </div>
   );

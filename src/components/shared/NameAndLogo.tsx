@@ -15,7 +15,7 @@ export const NameAndLogo = ({ footer }: { footer?: boolean }) => {
         <div className='text-3xl font-bold'>AAA Plus</div>
         <div className='text-xl'>Financial Services</div>
         <div className='h-1 bg-emerald-800 rounded' />
-        <p>Tax &bull; Bookkeeping &bull; NPOs</p>
+        <p>Tax &bull; Accounting &bull; NPOs</p>
       </div>
     </div>
   );
