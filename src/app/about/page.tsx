@@ -10,7 +10,7 @@ export default function About() {
         <h2 className='text-4xl py-6 font-bold'>About AAA Plus:</h2>
         <p className='pb-4 text-neutral-400'>
           Based in the heart of Orlando, FL, <AAAPlus /> serves the unique
-          financial needs of individuals, small businesses, and not-for-profit
+          financial needs of individuals, small businesses, and nonprofit
           organizations in our local community. With a focus on tax preparation,
           bookkeeping, and financial consulting, we bring the latest expertise
           in tax codes, regulations, and financial strategies to ensure our
