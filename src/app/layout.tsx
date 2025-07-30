@@ -9,7 +9,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 export const metadata: Metadata = {
   title: "AAA PLUS Financial Services",
   description:
-    "Expert tax, bookkeeping, and financial consulting in Orlando, FL. Led by CPA Ashraf Abeltawab with 20+ years of trusted, client-focused service.",
+    "Expert tax, bookkeeping, and financial consulting in Orlando, FL. Led by CPA Ashraf Abdeltawab with 20+ years of trusted, client-focused service.",
   keywords: [
     "AAA PLUS Financial Services",
     "Tax Services Orlando",
